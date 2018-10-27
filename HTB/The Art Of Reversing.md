@@ -50,8 +50,16 @@ The date string is calculated by taking the input in the days text box, storing 
 
 ![](https://i.imgur.com/fxZ8umG.png)
 
-Once the string has been converted to roman numerals it is then sent to the method `DoR();`
+Once the string has been converted to roman numerals it is then sent to the method `DoR();`. The  `DoR();` method starts by reversing the array, then it loops through and pushing all characters once to the right. This means that e.g a C turns into a D.
 
 ![](https://i.imgur.com/9K58Sx6.png)
 
-WIP
+If the days are, for instance, 311 it will turn into CCCXI in roman numerals, then turn into `jyddd ` as the key. Since we now know the algorithm we can reverse engineer the second part of the key, `wymddd`. If we move all the characters one spot to the left and reverse the string again we get the roman numerals: CCCNXV, which converted to regular numbers is 365. We now have the username + password and we double check it with the program:
+
+![](https://i.imgur.com/Il9qzmi.png)
+
+The key is then **_hacktheplanet365_** 
+
+## Finding the username a real way
+
+WIP shit's confusing 
