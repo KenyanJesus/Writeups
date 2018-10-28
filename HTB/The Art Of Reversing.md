@@ -56,7 +56,7 @@ Once the string has been converted to roman numerals it is then sent to the meth
 
 If for example the days input is 311 it will turn into CCCXI in roman numerals, then turn into `jyddd` as the key. 
 
-Since we now know the algorithm we can reverse engineer the second part of the key, `wymddd`. If we move all the characters one spot to the left and reverse the string again we get the roman numerals: CCCNXV, which converted to regular numbers is 365. We now have the username + password and we double check it with the program:
+Since we now know the algorithm we can reverse engineer the second part of the key, `wymddd`. If we move all the characters one spot to the left and reverse the string again we get the roman numerals: CCCLXV, which converted to regular numbers is 365. We now have the username + password and we double check it with the program:
 
 ![](https://i.imgur.com/Il9qzmi.png)
 
